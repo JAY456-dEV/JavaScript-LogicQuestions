@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.passInput {
+    width: 320px;
+    height: 33px;
+    font-size: 1.3rem;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+.check {
+    display: flex;
+    gap: 20px;
+
+    & p {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #E4E3E3;
+    }
+}
+
+.line {
+    width: 320px;
+    height: 12px;
+    border: 1px solid grey;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.linecolor {
+    width: 0;
+    height: 12px;
+    background-color: rgb(11, 149, 23);
+    position: absolute;
+}
+
+.passLetter,
+.passCheck {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}

@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+.container {
+    border: 2px solid blue;
+    width: 100%;
+    height: 200px;
+    margin-top: 5rem;
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.bodycheck {
+    display: block;
+}

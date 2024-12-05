@@ -1,0 +1,25 @@
+.box {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(17, 134, 231);
+    cursor: pointer;
+    text-align: center;
+    font-size: 28px;
+
+    & span {
+        visibility: hidden;
+    }
+}
+
+
+.box-parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    max-width: 20px;
+    margin: auto;
+}
+
+.displayOff {
+    visibility: hidden;
+}

@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #e5ecf5;
+}
+
+img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-1{
+    background-color: white;
+    display: inline-block;
+    padding: 20px 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.2);   
+}
+
+p{
+    color: darkgrey;
+    margin-top: 10px;
+}
+
+.viewProf{
+    background-color: rgb(115, 115, 224);
+    color: white;
+    border: none;
+    padding: 8px 8px;
+    font-size: 0.8rem;
+    border-radius: 40px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+
+.pageBtn{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btnNum{
+    padding: 6px 8.5px;
+    border: none;
+    background-color: rgb(71, 71, 179);
+    color: white;
+    cursor: pointer;
+}
+
+.prev{
+    padding: 6px 8.5px;
+    border: none;
+    background-color: transparent;
+    color: blue;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.next{
+    padding: 6px 8.5px;
+    border: none;
+    background-color: transparent;
+    color: blue;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+}

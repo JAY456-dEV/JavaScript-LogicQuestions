@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="inputGen">
+            <input type="text" class="PasswordGen">
+            <button class="copy">COPY</button>
+        </div>
+    
+        <div class="chooseLength">
+            <input type="range" min="0" max="20" class="selectRange">
+            <div class="numberLength">0</div>
+        </div>
+    
+        <div class="selectPassType">
+            <div>
+                <div><input type="checkbox" class="charab common">a-b</input></div>
+                <div><input type="checkbox" class="charAB common">A-B</input></div>
+            </div>
+            <div class="s">
+                <div><input type="checkbox" class="number common">0-9</input></div>
+                <div><input type="checkbox" class="symbol common">!@#$%</input></div>
+            </div>
+        </div>
+    
+        <div class="genBtn-main">
+            <button class="genBtn">GENERATE</button>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

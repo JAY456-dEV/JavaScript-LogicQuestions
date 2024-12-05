@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 95vh;
+}
+
+.pair-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.box-main {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: -1;
+}
+
+.fruit {
+    background-color: rgb(32, 146, 133);
+    border: none;
+    font-size: 3.5rem;
+    margin-top: 13px;
+    width: 110px;
+    height: 110px;
+    background-color: rgb(32, 146, 133);
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 10px;
+    backface-visibility: hidden;
+    transition: 0.8s transform;
+}
+
+.fruit.back-tile {
+    transform: rotateY(180deg);
+}
+
+.fruit.active {
+    background-color: brown;
+    transform: rotateY(180deg);
+}
+
+.fruit.back-tile.active {
+    transform: rotateY(380deg);
+}

@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.sort-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    height: 230px;
+}
+
+.colm {
+    width: 30px;
+    height: 100%;
+    background-color: rgb(224, 81, 172);
+    border: 2px solid black;
+    text-align: center;
+}
+
+/* .colm-1 {
+    height: 10%;
+}
+
+.colm-2 {
+    height: 50%;
+}
+.colm-3 {
+    height: 70%;
+}
+.colm-4 {
+    height: 50%;
+}
+.colm-5 {
+    height: 50%;
+} */

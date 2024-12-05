@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+
+.pomodoro-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    margin-left: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: 500;
+    color: rgb(57, 55, 55);
+}
+
+.start {
+    background-color: green;
+}
+
+.stop {
+    background-color: red;
+}
+
+.reset {
+    background-color: #7f8c8d;
+}

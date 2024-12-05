@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins';
+}
+
+.game-container {
+    background-color: rgb(28, 19, 19);
+    width: 500px;
+    height: 440px;
+    border-radius: 13px;
+}
+
+.box-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    margin-left: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.player-1 img{
+    width: 170px;
+    border-radius: 26px;
+}
+
+.player-2 img{
+    width: 170px;
+    border-radius: 26px;
+}

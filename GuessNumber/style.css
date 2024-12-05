@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    text-align: center;
+}
+
+body{
+    max-width: 500px;
+    margin: auto;
+}
+
+.enternumber{
+    width: 250px;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left:5px ;
+}
+
+.submit-btn{
+    padding: 4px 10px;
+    border: none;
+    background-color: rgb(201, 25, 25);
+    color: white;
+
+}
+
+.startnew{
+    padding: 4px 12px;
+    border: none;
+    background-color: rgb(103, 103, 199);
+    color: white;
+    cursor: pointer;
+}

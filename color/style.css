@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: green;
+}
+.box4{
+    background-color: rgb(183, 0, 255);
+}

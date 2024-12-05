@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins;
+    display: flex;
+}
+
+
+.navs{
+    display: flex;
+    gap: 75px;
+    background-color: rgb(133, 133, 157);
+    width: 45%;
+    justify-content: center;
+}
+
+h2:hover{
+    background-color: rgb(217, 217, 252);
+    cursor: pointer;
+}
+
+.paragraph{
+    width: 45%;
+}
+
+.mainhead{
+    color: black;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+

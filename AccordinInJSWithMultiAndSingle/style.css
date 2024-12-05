@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ques-and-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+    & p {
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+
+.ques {
+    margin-bottom: 10px;
+    max-width: 500px;
+    border: 1px solid black;
+    padding: 0 15px;
+}
+
+.btn {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.para {
+    display: none;
+}

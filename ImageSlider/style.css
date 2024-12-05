@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+.slider-container{
+    width: 500px;
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.img-container{
+    display: flex;
+    transition: all .3s linear;
+}
+
+.btn{
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 20px;
+    opacity: .7;
+    cursor: pointer;
+}
+
+.btn.prev{
+    left: 10px;
+} 
+
+.btn.next{
+    right: 10px;
+}
+
+.btn:hover{
+    opacity: 1;
+}

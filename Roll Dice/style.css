@@ -1,0 +1,91 @@
+*{
+    padding :0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+.dice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    flex-direction: row;
+    gap: 20px;
+} 
+
+.dot-box{
+    width: 130px;
+    height: 130px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 16px;
+    position: relative;
+}
+
+
+.roll{
+    background-color: rgb(32, 111, 207);
+    padding: 12px 18px;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.dot-1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+}
+
+ .dot-2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    /* left: 12%;
+    top: 44%; */
+}
+
+.dot-3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    /* left: 12%;
+    top: 77%; */
+}
+
+.dot-4{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    /* left: 75%; */
+}
+.dot-5{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    /* left: 75%;
+    top: 44%; */
+}
+
+.dot-6{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    /* left: 75%;
+    top: 77%; */
+}
+

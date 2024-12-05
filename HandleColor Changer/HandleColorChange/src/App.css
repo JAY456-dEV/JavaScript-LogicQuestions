@@ -1,0 +1,16 @@
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+.showcolor {
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  font-size: 2rem;
+  font-weight: 700;
+}

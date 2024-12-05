@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.ques-1 {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.ques-2 {
+    border: 1px solid black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.ques-3 {
+    border: 1px solid black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.ques-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.ques-info {
+    padding: 20px;
+}
+
+.ques-info {
+    display: none;
+}
+
+.ques {
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.detail-hidden .ques-info {
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.active{
+    display: block;
+}

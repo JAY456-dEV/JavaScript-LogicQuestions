@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1617441250347-f0c5e19a0fa4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+}
+
+.nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.nav ul li {
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.nav ul li:hover {
+    color: gold;
+}
+
+.logo {
+    color: white;
+}
+
+.cartTop {
+    color: white;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+.cartTop:hover {
+    color: gold;
+}
+
+.headmain {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 12%;
+}
+
+.head {
+    font-size: 4rem;
+}
+
+.headpara {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.shop {
+    border: none;
+    padding: 10px 15px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.shop:hover {
+    background-color: white;
+    color: gold;
+    cursor: pointer;
+}
+
+img {
+    width: 350px;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.main-shop h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-block: 20px;
+}
+
+.featured {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.product-1,
+.product-2,
+.product-3 {
+    text-align: center;
+}
+
+.allProduct {
+    border: none;
+    background-color: #c4822d;
+    padding: 10px 15px;
+    margin-block: 30px;
+    position: absolute;
+    left: 45.8%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.fea-cart {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.common-1 {
+    position: absolute;
+    top: 39%;
+    color: white;
+    background-color: #c4822d;
+    padding: 10px;
+    border-radius: 50%;
+    left: 17.5%;
+    visibility: hidden;
+}
+
+.product-1 .fea-cart {
+    margin-left: 42px;
+}
+
+
+.common-2 {
+    position: absolute;
+    top: 39%;
+    color: white;
+    background-color: #c4822d;
+    padding: 10px;
+    border-radius: 50%;
+    left: 48%;
+    visibility: hidden;
+}
+
+.product-2 .fea-cart {
+    margin-left: 42px;
+}
+
+.common-3 {
+    position: absolute;
+    top: 39%;
+    color: white;
+    background-color: #c4822d;
+    padding: 10px;
+    border-radius: 50%;
+    left: 77.5%;
+    visibility: hidden;
+}
+
+.product-3 .fea-cart {
+    margin-left: 42px;
+}
+
+.common:hover,
+.common-1:hover {
+    background-color: #c89c5f;
+}
+
+.common-b:hover,
+.common-2:hover {
+    background-color: #c89c5f;
+}
+
+.common-c:hover,
+.common-3:hover {
+    background-color: #c89c5f;
+}
+
+.product-1:hover .show {
+    visibility: visible;
+}
+
+.product-2:hover .show {
+    visibility: visible;
+}
+
+.product-3:hover .show {
+    visibility: visible;
+}
+
+.remove {
+    border: none;
+    background-color: transparent;
+    color: darkgray;
+}
+
+/* cartbag css */
+
+.cartBag {
+    max-width: 400px;
+    height: 800px;
+    padding: 32px;
+    background-color: #fff;
+    float: inline-end;
+    top: 0;
+    right: 0;
+    position: fixed;
+    z-index: 999;
+}
+
+.remove {
+    cursor: pointer;
+}
+
+.price {
+    font-size: 0.85rem;
+}
+
+.fa-xmark {
+    font-size: 2.2rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.imgcart img {
+    border-radius: 3px;
+    width: 100px;
+    height: 80px;
+}
+
+.cartFlex {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.cartBag {
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    gap: 15px;
+}
+
+.cartPlusMinus {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.fa-angle-left,
+.fa-angle-right {
+    cursor: pointer;
+}
+
+.cartTotal {
+    text-align: center;
+    justify-content: end;
+}
+
+.cartTotal {
+    font-size: 1.2rem;
+}
+
+.checkoutBtn {
+    background-color: #c4822d;
+    border: none;
+    padding: 8px 18px;
+    cursor: pointer;
+}
+
+.show {
+    visibility: hidden;
+}
+
+.cartItemTotal {
+    position: absolute;
+    background-color: #e08714;
+    padding: 0 7px;
+    color: white;
+    font-weight: 500;
+    border-radius: 50%;
+    top: 15px;
+    right: 147px;
+}
+
+
+/* only for product cart html */
+
+.main-container-1 {
+    padding: 30px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+img {
+    width: 300px;
+    border-radius: 7px;
+    height: 300px;
+}
+
+.searchInput {
+    border: none;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+    padding: 8px 19px;
+    background-color: rgb(230, 230, 249);
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: darkgrey;
+}
+
+ul li:hover {
+    color: black;
+}
+
+.cate-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+
+.rangeInput {
+    color: transparent;
+    background-color: transparent;
+}
+
+.price-range {
+    font-weight: 500;
+}
+
+.product-ul ul li {
+    color: rgb(0, 0, 0);
+}
+
+.product-logo .logo {
+    color: black;
+}
+
+.product-cart {
+    color: black;
+}
+
+.logo a {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.img-1{
+    position: relative;
+}
+
+.img-1 .prod-search {
+    background-color: #c4822d;
+    padding: 9px;
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    left:40%;
+    opacity: 0;
+}
+
+.img-1 .prod-cart {
+    background-color: #c4822d;
+    padding: 9px 7px;
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    left:55%;
+    opacity: 0;
+}
+
+.img-1:hover .prod-search{
+    opacity: 1;
+}
+
+.img-1:hover .prod-cart{
+    opacity: 1;
+}
+
+.prod-search:hover{
+    background-color: #c89c5f;
+}
+.prod-cart:hover{
+    background-color: #c89c5f;
+}
+
+.search-product-click{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    gap: 70px;
+    width: 60%;
+    margin: auto;
+}
+
+.search-product-img img{
+    width: 500px;
+    height: 400px;
+    border-radius: 0;
+}
+
+.search-product-btn{
+    background-color: #c4822d;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+/* 
+.hideall{
+    display: none;
+}
+
+.search-product-click{
+    display: none;
+} */
+
+/* <div class="search-product-click">
+        <div class="search-product-img">
+            <img src="https://course-api.com/images/store/product-1.jpeg" alt="">
+        </div>
+
+        <div class="search-product-detail">
+            <h1>High-Back Bench</h1>
+            <h4>BY IKEA</h4>
+            <p class="search-product-para1">$9.99</p>
+            <p class="search-product-para2">Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy
+                8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral
+                typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork
+                chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge</p>
+            <button class="search-product-btn">ADD TO CART</button>
+        </div>
+    </div> */

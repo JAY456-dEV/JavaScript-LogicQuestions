@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+body {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-top: 13px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.inputContainer input:first-child{
+    width: 250px;
+    height: 42px;
+    font-size: 1.1rem;
+    padding-left: 10px;
+}
+
+.submitbtn{
+    margin-left: 10px;
+    padding: 11px 25px;
+    font-size: 1rem;
+}
+
+.show{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+}

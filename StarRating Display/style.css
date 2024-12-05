@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.star-main {
+    display: flex;
+    position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 3rem;
+        gap: 10px;
+        margin-bottom: 1rem;
+}
+
+.star {
+    position: relative;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.star-partial{
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    color: gold;
+    align-self: flex-start;
+    width: 50%;
+}
+
+.range {
+    width: 450px;
+}

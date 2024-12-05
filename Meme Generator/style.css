@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.memeGenBtn{
+    text-align: center;
+}
+
+.memeGenBtn button {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(49, 118, 229);
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.2s ease-in;
+}
+
+.memeGenBtn button:hover {
+    letter-spacing:0.2rem;
+}
+
+.meme-main{
+    margin: auto;
+    width: 608px;
+    margin-top: 20px;
+    background-color: rgb(241, 199, 206);
+    height: 800px;
+}
+
+.meme{
+    text-align: center;
+}
+
+.meme h2{
+    padding-top: 22px;
+}
+
+.meme img{
+    margin-top: 50px;
+}
+
+.meme p{
+    margin-top: 13px;
+}

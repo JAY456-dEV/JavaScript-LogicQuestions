@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.name {
+    padding: 8px 17px;
+}
+
+input {
+    display: block;
+}
+
+
+.input-all {
+    margin: 2rem;
+}
+
+.btn {
+    padding: 5px;
+    border: none;
+    margin-bottom: 25px;
+    margin-left: 33px;
+}
+
+.btn-success {
+    background-color: green;
+}
+
+.btn-update {
+    background-color: blue;
+}
+
+table,
+th {
+    border: 1px solid black;
+    padding: 5px 27px;
+    border-collapse: collapse;
+}
+
+
+.update-Btn {
+    background-color: blue;
+    color: white;
+}

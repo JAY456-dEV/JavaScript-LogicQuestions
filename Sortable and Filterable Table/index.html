@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="add-item-main">
+        <h1>Custom Table</h1>
+        <div class="input-main">
+            <h2>Add Item</h2>
+            <form>
+                <input type="text" class="nameInput" placeholder="Enter Name">
+                <input type="text" class="categoryInput" placeholder="Enter Category">
+                <input type="text" class="yearInput" placeholder="Enter Year">
+                <button class="addList" type="submit">ADD LIST</button>
+                <button class="updateBtn" type="submit">UPDATE</button>
+            </form>
+
+        </div>
+
+        <h2 class="search-item-text">Search For Item</h2>
+        <div class="input-sec-main">
+            <input type="text" class="searchInput" placeholder="Search For Names">
+        </div>
+
+        <div class="added-list-main">
+            <table>
+                <thead>
+                    <tr>
+                        <th>S.no</th>
+                        <th>Name</th>
+                        <th>Category</th>
+                        <th>Year</th>
+                        <th>Edit Entry</th>
+                        <th>Delete Entry</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>ad</td>
+                        <td>ad</td>
+                        <td>ad</td>
+                        <td>ad</td>
+                        <td><i class="fa-regular fa-pen-to-square"></i></td>
+                        <td><i class="fa-regular fa-trash-can"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
